@@ -4,9 +4,9 @@
 Если logo.png лежит в той же папке (profile), что и этот README.md,
 достаточно просто указать имя файла в src.
 -->
-<img src="logo.png" alt="Payvand Logo" width="200" />
+<img src="logo.jpg" alt="Payvand Logo" width="200" />
 
-<h1>Пайванд - адресная помощь</h1>
+<h1>Хадаф - адресная помощь</h1>
 </div>
 
 ## 🚀 Кто мы?
