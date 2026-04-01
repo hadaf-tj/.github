@@ -66,6 +66,6 @@ Hadaf is spearheaded by indepentend software engineers and specialists and relie
 ## Contact & Community
 
 * **Project Lead / CTO:** Siyovush Hamidov ([Telegram](https://t.me/siyovush_hamidov) | [LinkedIn](https://www.linkedin.com/in/siyovush-hamidov/))
-* **Organization LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
-* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
-* **Community Channel:** [Hadaf Telegram](https://t.me/hadaf_tjk)
+* **Organization LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftajikistan)
+* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf_tajikistan/)
+* **Community Channel:** [Hadaf Telegram](https://t.me/hadaf_tajikistan)
