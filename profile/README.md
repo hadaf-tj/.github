@@ -1,68 +1,71 @@
 <div align="center">
-  <img src="logo.jpg" alt="Hadaf Logo" width="125" />
-  <h1>Хадаф — платформа адресной помощи</h1>
-  <p><b>Прозрачная экосистема между благотворительными учреждениями и донорами в Таджикистане.</b></p>
-  <p><b>(English version below)</b></p>
+  <picture>
+    <img height="120" width="auto" alt="Hadaf Logo" src="logo.jpg">
+  </picture>
+  <br>
+  <br>
+    <a href="https://github.com/hadaf-tj"><img src="https://img.shields.io/badge/Status-Public_Beta-success.svg" alt="Status Beta"/></a>
+    <a href="https://github.com/hadaf-tj/hadaf-backend"><img src="https://img.shields.io/badge/Backend-Go-00ADD8.svg?logo=go" alt="Go Backend"/></a>
+    <a href="https://github.com/hadaf-tj/hadaf-frontend"><img src="https://img.shields.io/badge/Frontend-Next.js-black.svg?logo=next.js" alt="Next.js Frontend"/></a>
+    <a href="https://github.com/hadaf-tj/hadaf-mobile"><img src="https://img.shields.io/badge/Mobile-Flutter-02569B.svg?logo=flutter" alt="Flutter Mobile"/></a>
+    <a href="https://github.com/hadaf-tj/hadaf-backend/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+    <a href=""><img src="https://img.shields.io/badge/License-MIT-teal.svg" alt="MIT License"/></a>
+  <br>
+  <br>
+  <b>A zero-transaction digital ecosystem for transparent charity in Tajikistan.</b>
 </div>
-
----
-
-### 🛡️ Наш главный принцип: Ноль финансовых транзакций
-Мы принципиально **не принимаем денежные переводы**. Наша платформа полностью исключает финансовые операции внутри системы. 
-* **Прозрачность:** Мы оцифровываем реальные нужды (лекарства, инвентарь, средства гигиены).
-* **Адресность:** Доноры передают конкретные вещи напрямую в учреждения.
-* **Доверие:** Мы обеспечиваем только цифровой учет и верификацию доставки.
-
-### 🏗️ Структура проекта
-Проект состоит из четырех ключевых компонентов:
-1. [**Backend**](https://github.com/hadaf-tj/hadaf-backend) — Серверная часть на **Go**, бизнес-логика и API.
-2. [**Frontend**](https://github.com/hadaf-tj/hadaf-frontend) — Веб-интерфейс на **Next.js** для управления и мониторинга.
-3. [**Mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Мобильное приложение на **Flutter** для доноров и волонтеров.
-4. [**Docs & Design**](https://github.com/hadaf-tj/hadaf-docs) — Техническое задание, UX/UI дизайн и документация.
-
-### 💻 Разработка и Open Source
-Мы открываем код, чтобы создать систему, которой можно доверять. 
-**Хотите помочь?**
-Ознакомьтесь с файлом [**CONTRIBUTING.md**](../CONTRIBUTING.md). Там описаны правила работы: мы не пушим в `main`, используем ветки и проходим обязательное код-ревью.
-
-### 🤝 Партнерство и контакты
-Мы открыты к сотрудничеству с государственными органами (Минздрав), фондами (ВОЗ, USAID) и НКО. 
-
-**Контактное лицо:**
-* **Project Lead:** Хамидов Сиёвуш
-* **Telegram:** [@siyovush_hamidov](https://t.me/siyovush_hamidov)
-* **LinkedIn:** [Siyovush Hamidov](https://www.linkedin.com/in/siyovush-hamidov/)
-
-### 📱 Соцсети проекта
-* **Telegram:** [t.me/hadaf_tjk](https://t.me/hadaf_tjk)
-* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
-* **LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
-
----
-
-# Hadaf | Transparent Targeted Charity 🚀
-
-**Hadaf** is a volunteer-driven social tech initiative building a transparent digital ecosystem for social good in Tajikistan.
-
-### 🛡️ Zero-Transaction Model
-We **do not accept money transfers**. Our platform is strictly non-financial to ensure 100% transparency.
-
-### 🏗️ Project Structure
-1. [**Backend**](https://github.com/hadaf-tj/hadaf-backend) — **Go** based API and business logic.
-2. [**Frontend**](https://github.com/hadaf-tj/hadaf-frontend) — **Next.js** web platform.
-3. [**Mobile**](https://github.com/hadaf-tj/hadaf-mobile) — **Flutter** app for donors and volunteers.
-4. [**Docs & Design**](https://github.com/hadaf-tj/hadaf-docs) — UX/UI, technical specs, and documentation.
-
-### 💻 Open Source & Contributions
-We believe in radical transparency. Our codebase is open for audit and collaborative improvement.
-* **Want to help?** Please read our [**CONTRIBUTING.md**](../CONTRIBUTING.md) guide before starting. It contains our workflow, coding standards, and PR process.
-
-### 🤝 Contact
-* **Project Lead:** Siyovush Hamidov
-* **Telegram:** [@siyovush_hamidov](https://t.me/siyovush_hamidov)
 
 <br>
 
-<div align="center">
-  <i>Разрабатываем с ❤️ ради общего блага | Engineered for the common good.</i>
-</div>
+**Hadaf** is an open-source, volunteer-driven ecosystem designed to eliminate opacity and inefficiency in charitable giving. Unlike traditional charity models that rely on opaque financial transfers, Hadaf operates on a **strictly zero-transaction basis**. We digitize the verified physical needs of social institutions (orphanages, nursing homes) and connect them directly with donors who provide the exact items required.
+
+Our goal is to build a highly secure, scalable, and trustless system that can serve as a national standard for transparent social impact, heavily influenced by enterprise-grade architecture and rigorous CI/CD practices.
+
+## Features
+
+- **Zero Financial Transactions:** No money passes through the platform. 100% item-based targeted help.
+- **Role-Based Access Control (RBAC):** Strict separation of concerns between Institutions, Donors, Volunteers, and Admins.
+- **Cross-Platform Ecosystem:** Native mobile app, responsive web dashboard, and robust API.
+- **Digital Audit Trail:** Every delivered item is tracked, verified, and transparently reported.
+- **Enterprise Security:** Isolated infrastructure, strict NAT routing, and encrypted data flows to protect institutional data.
+
+## The Ecosystem
+
+The Hadaf project is decoupled into four main repositories, allowing you to contribute to the domain you know best:
+
+- [**hadaf-backend**](https://github.com/hadaf-tj/hadaf-backend) — Core API and business logic. Built with **Go**, PostgreSQL, Redis, and Docker.
+- [**hadaf-frontend**](https://github.com/hadaf-tj/hadaf-frontend) — Web platform for institutions. Built with **Next.js** and Tailwind CSS.
+- [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**.
+- [**hadaf-docs**](https://github.com/hadaf-tj/hadaf-docs) — Source of truth for architecture, technical specifications, and UX/UI design.
+
+## Contributing
+
+We welcome contributions from developers, QA engineers, and designers who want to build a portfolio with a real-world, social-impact project. 
+
+Read our [**CONTRIBUTING.md**](./CONTRIBUTING.md) guide for PR processes and coding standards. 
+*(Note: While our codebase and documentation are in English, we also speak Russian and Tajik in our community channels!)*
+
+## Our Contributors
+
+This project exists thanks to all the people who contribute their time and expertise. 
+
+<a href="https://github.com/hadaf-tj/hadaf-frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-frontend" alt="Frontend Contributors" />
+</a>
+<a href="https://github.com/hadaf-tj/hadaf-backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-backend" alt="Backend Contributors" />
+</a>
+<a href="https://github.com/hadaf-tj/hadaf-mobile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-mobile" alt="Mobile Contributors" />
+</a>
+
+## Academic & NGO Context
+
+Hadaf is spearheaded by students and relies entirely on open-source volunteer efforts. The core infrastructure is architected under the leadership of a graduate student at the **University of Bayreuth, Germany**. We are actively seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO, USAID).
+
+## Contact & Community
+
+* **Project Lead / CTO:** Siyovush Hamidov ([Telegram](https://t.me/siyovush_hamidov) | [LinkedIn](https://www.linkedin.com/in/siyovush-hamidov/))
+* **Organization LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
+* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
+* **Community Channel:** [Hadaf Telegram](https://t.me/hadaf_tjk)
