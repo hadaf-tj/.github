@@ -2,7 +2,7 @@
   <img src="logo.jpg" alt="Hadaf Logo" width="125" />
   <h1>Хадаф — платформа адресной помощи</h1>
   <p><b>Прозрачная экосистема между благотворительными учреждениями и донорами в Таджикистане.</b></p>
-  <p><b>*(English version below)*</b></p>
+  <p><b>(English version below)</b></p>
 </div>
 
 ---
