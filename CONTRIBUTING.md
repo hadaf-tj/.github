@@ -1,71 +1,120 @@
-<div align="center">
-  <picture>
-    <img height="120" width="auto" alt="Hadaf Logo" src="logo.jpg">
-  </picture>
-  <br>
-  <br>
-    <a href="https://github.com/hadaf-tj"><img src="https://img.shields.io/badge/Status-Public_Beta-success.svg" alt="Status Beta"/></a>
-    <a href="https://github.com/hadaf-tj/hadaf-backend"><img src="https://img.shields.io/badge/Backend-Go-00ADD8.svg?logo=go" alt="Go Backend"/></a>
-    <a href="https://github.com/hadaf-tj/hadaf-frontend"><img src="https://img.shields.io/badge/Frontend-Next.js-black.svg?logo=next.js" alt="Next.js Frontend"/></a>
-    <a href="https://github.com/hadaf-tj/hadaf-mobile"><img src="https://img.shields.io/badge/Mobile-Flutter-02569B.svg?logo=flutter" alt="Flutter Mobile"/></a>
-    <a href="https://github.com/hadaf-tj/hadaf-backend/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
-    <a href=""><img src="https://img.shields.io/badge/License-MIT-teal.svg" alt="MIT License"/></a>
-  <br>
-  <br>
-  <b>A zero-transaction digital ecosystem for transparent charity in Tajikistan.</b>
-</div>
+# Contributing to Hadaf
 
-<br>
+First off, thank you for considering contributing to Hadaf! It is people like you who make this platform a reality, helping us build a transparent, zero-transaction digital bridge for social good in Tajikistan.
 
-**Hadaf** is an open-source, volunteer-driven ecosystem designed to eliminate opacity and inefficiency in charitable giving. Unlike traditional charity models that rely on opaque financial transfers, Hadaf operates on a **strictly zero-transaction basis**. We digitize the verified physical needs of social institutions (orphanages, nursing homes) and connect them directly with donors who provide the exact items required.
+As a contributor, here are the guidelines we would like you to follow to keep our codebase clean, secure, and maintainable:
 
-Our goal is to build a highly secure, scalable, and trustless system that can serve as a national standard for transparent social impact, heavily influenced by enterprise-grade architecture and rigorous CI/CD practices.
+- [Got a Question or Problem?](#question)
+- [Found a Security Vulnerability?](#security)
+- [Issues and Bugs](#issue)
+- [Feature Requests](#feature)
+- [Submission Guidelines](#submit)
+- [Commit Message Format](#commit)
 
-## Features
+## <a name="question"></a> Got a Question or Problem?
 
-- **Zero Financial Transactions:** No money passes through the platform. 100% item-based targeted help.
-- **Role-Based Access Control (RBAC):** Strict separation of concerns between Institutions, Donors, Volunteers, and Admins.
-- **Cross-Platform Ecosystem:** Native mobile app, responsive web dashboard, and robust API.
-- **Digital Audit Trail:** Every delivered item is tracked, verified, and transparently reported.
-- **Enterprise Security:** Isolated infrastructure, strict NAT routing, and encrypted data flows to protect institutional data.
+If you have a question about the architecture, need help setting up your local environment, or want community support:
 
-## The Ecosystem
+- You can ask in our [Developer & Community Telegram Channel](https://t.me/hadaf_tjk).
+- You can open a "Question" issue in the relevant repository.
 
-The Hadaf project is decoupled into four main repositories, allowing you to contribute to the domain you know best:
+## <a name="security"></a> Found a security vulnerability?
 
-- [**hadaf-backend**](https://github.com/hadaf-tj/hadaf-backend) — Core API and business logic. Built with **Go**, PostgreSQL, Redis, and Docker.
-- [**hadaf-frontend**](https://github.com/hadaf-tj/hadaf-frontend) — Web platform for institutions. Built with **Next.js** and Tailwind CSS.
-- [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**.
-- [**hadaf-docs**](https://github.com/hadaf-tj/hadaf-docs) — Source of truth for architecture, technical specifications, and UX/UI design.
+**Please do not report security vulnerabilities on the public GitHub issue tracker.** Because Hadaf deals with the needs of social institutions, security is our top priority. If you find a vulnerability, please contact the core team directly via Telegram at [@siyovush_hamidov](https://t.me/siyovush_hamidov).
 
-## Contributing
+## <a name="issue"></a> Found a Bug?
 
-We welcome contributions from developers, QA engineers, and designers who want to build a portfolio with a real-world, social-impact project. 
+If you find a bug in the source code, you can help us by [submitting an issue](#submit-issue) to the corresponding repository (Backend, Frontend, or Mobile).
+Even better, you can [submit a Pull Request](#submit-pr) with a fix!
 
-Read our [**CONTRIBUTING.md**](./CONTRIBUTING.md) guide for PR processes and coding standards. 
-*(Note: While our codebase and documentation are in English, we also speak Russian and Tajik in our community channels!)*
+## <a name="feature"></a> Missing a Feature?
 
-## Our Contributors
+You can *request* a new feature by submitting an issue to our GitHub Repository. If you would like to *implement* a new feature, please submit an issue with a proposal for your work first, to be sure that it aligns with our roadmap.
 
-This project exists thanks to all the people who contribute their time and expertise. 
+- For a **Major Feature** (e.g., a new user role, a complex dashboard module), first open an issue and outline your proposal so that it can be discussed with the CTO. This prevents duplication of work.
+- **Small Features** (e.g., UI tweaks, minor optimizations) can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
-<a href="https://github.com/hadaf-tj/hadaf-frontend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-frontend" alt="Frontend Contributors" />
-</a>
+## <a name="submit"></a> Submission Guidelines
+
+### <a name="submit-issue"></a> Submitting an Issue
+
+Before you submit an issue, please search the issue tracker; maybe an issue for your problem already exists and the discussion might inform you of workarounds readily available.
+
+In order to reproduce bugs, we ask you to provide a minimal, clear set of steps to reproduce the problem, along with your environment details (OS, browser, or device).
+
+### <a name="submit-pr"></a> Submitting a Pull Request (PR)
+
+**The Golden Rule:** The `main` branch is strictly protected. You must never push directly to `main`. 
+
+Before you submit your Pull Request (PR) consider the following guidelines:
+
+1. Search the repository for an open or closed PR that relates to your submission.
+2. Fork the repository and make your changes in a new git branch:
+   ```shell
+   git checkout -b feat/my-new-feature main
+   ```
+3. Create your patch. **Do not commit secrets, `.env` files, or API keys.**
+4. Commit your changes using descriptive commit messages. See our [commit message conventions](#commit) below.
+   ```shell
+   git commit -a
+   ```
+5. Push your branch to GitHub:
+   ```shell
+   git push origin feat/my-new-feature
+   ```
+6. In GitHub, open a Pull Request against the `main` branch of the upstream Hadaf repository.
+7. Wait for a code review from the core maintainers. If changes are requested, simply push new commits to your branch—the PR will update automatically.
+
+## <a name="commit"></a> Commit Message Guidelines
+
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) format to help generate changelogs and keep our commit history readable. 
+
+```text
+<type>: <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+Any line of the commit message should not be longer than 100 characters.
+
+### Type
+
+Must be one of the following:
+
+- **build**: Changes that affect the build system or external dependencies (e.g., Go modules, npm packages)
+- **chore**: Other changes that don't amend functionality (e.g., formatting, updating scripts)
+- **ci**: Changes to our CI/CD configuration files (e.g., GitHub Actions)
+- **docs**: Documentation only changes
+- **feat**: A new feature
+- **fix**: A bug fix
+- **perf**: A code change that improves performance
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+- **test**: Adding missing tests or correcting existing tests
+
+### Subject
+
+The subject contains a succinct description of the change:
+
+- Use the imperative, present tense: "change" not "changed" nor "changes"
+- Don't capitalize the first letter
+- No dot (.) at the end
+
+### Body & Footer
+
+Just as in the subject, use the imperative, present tense. The body should include the motivation for the change.
+If your commit introduces a **Breaking Change**, the footer must start with `BREAKING CHANGE:` followed by a description. If your PR closes an open issue, add `Closes #123` in the footer.
+
+## Grants & Infrastructure Support
+
+Hadaf does not process financial donations for charity. However, maintaining high-availability enterprise servers and CI/CD pipelines requires resources. If you represent an NGO, an accelerator, or a corporate sponsor interested in supporting our **infrastructure and operational costs**, please reach out to the project lead on [LinkedIn](https://www.linkedin.com/company/hadaftj).
+
+## Credits
+
+Thank you to all the developers, designers, and QA engineers who volunteer their time to build a transparent future for charity in Tajikistan!
+
 <a href="https://github.com/hadaf-tj/hadaf-backend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-backend" alt="Backend Contributors" />
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-backend" alt="Contributors" />
 </a>
-<a href="https://github.com/hadaf-tj/hadaf-mobile/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-mobile" alt="Mobile Contributors" />
-</a>
-
-## Academic & NGO Context
-
-Hadaf is spearheaded by students and relies entirely on open-source volunteer efforts. The core infrastructure is architected under the leadership of a graduate student at the **University of Bayreuth, Germany**. We are actively seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO, USAID).
-
-## Contact & Community
-
-* **Project Lead / CTO:** Siyovush Hamidov ([Telegram](https://t.me/siyovush_hamidov) | [LinkedIn](https://www.linkedin.com/in/siyovush-hamidov/))
-* **Organization LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
-* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
-* **Community Channel:** [Hadaf Telegram](https://t.me/hadaf_tjk)
