@@ -15,7 +15,7 @@
 ### 💻 Разработка и Open Source
 Мы открываем наш код, чтобы построить систему, которой можно доверять. 
 Если вы хотите помочь проекту как разработчик, дизайнер или QA:
-1. Ознакомьтесь с файлом [**CONTRIBUTING.md**](./CONTRIBUTING.md) — там описаны все правила работы с репозиториями, стандарты кода и процесс подачи Pull Request.
+1. Ознакомьтесь с файлом [**CONTRIBUTING.md**](../CONTRIBUTING.md) — там описаны все правила работы с репозиториями, стандарты кода и процесс подачи Pull Request.
 2. Мы приветствуем инициативу и помогаем молодым талантам получить реальный опыт в social-tech проекте.
 
 ### 🤝 Партнерство и сотрудничество
@@ -46,7 +46,7 @@ We **do not accept money transfers**. Our platform is strictly non-financial.
 
 ### 💻 Open Source & Contributions
 We believe in radical transparency. Our codebase is open for audit and collaborative improvement.
-* **Want to help?** Please read our [**CONTRIBUTING.md**](./CONTRIBUTING.md) guide before starting. It contains our workflow, coding standards, and PR process.
+* **Want to help?** Please read our [**CONTRIBUTING.md**](../CONTRIBUTING.md) guide before starting. It contains our workflow, coding standards, and PR process.
 
 ### 🤝 Partnerships
 We are looking for strategic partnerships with government health departments and international NGOs (WHO, USAID, etc.).
