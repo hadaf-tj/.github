@@ -35,7 +35,6 @@
 ---
 
 # Hadaf | Transparent Targeted Charity 🚀
-*(English version)*
 
 **Hadaf** is a volunteer-driven social tech initiative building a digital bridge for social good in Tajikistan.
 
