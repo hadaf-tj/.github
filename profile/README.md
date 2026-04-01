@@ -1,52 +1,68 @@
-
 <div align="center">
-<!--
-Если logo.png лежит в той же папке (profile), что и этот README.md,
-достаточно просто указать имя файла в src.
--->
-<img src="logo.jpg" alt="Payvand Logo" width="200" />
-
-<h1>Хадаф - адресная помощь</h1>
+  <img src="logo.jpg" alt="Hadaf Logo" width="200" />
+  <h1>Хадаф — платформа адресной помощи</h1>
+  <p><b>Прозрачный цифровой мост между благотворительными учреждениями и донорами в Таджикистане.</b></p>
 </div>
 
-## 🚀 Кто мы?
+---
+*(English version below)*
+### 🛡️ Наш главный принцип: Ноль финансовых транзакций
+Мы принципиально **не принимаем денежные переводы**. Наша платформа полностью исключает финансовые операции. 
+* Мы оцифровываем реальные нужды (лекарства, средства гигиены, инвентарь).
+* Доноры покупают конкретные вещи и передают их напрямую в учреждения.
+* Мы обеспечиваем только прозрачный учет и подтверждение доставки.
 
-Мы — команда из более чем 10 волонтеров-энтузиастов. Мы не корпорация и не государственное учреждение. Мы — разработчики, дизайнеры и менеджеры, которых объединила одна острая проблема и одна большая идея.
+### 💻 Разработка и Open Source
+Мы открываем наш код, чтобы построить систему, которой можно доверять. 
+Если вы хотите помочь проекту как разработчик, дизайнер или QA:
+1. Ознакомьтесь с файлом [**CONTRIBUTING.md**](./CONTRIBUTING.md) — там описаны все правила работы с репозиториями, стандарты кода и процесс подачи Pull Request.
+2. Мы приветствуем инициативу и помогаем молодым талантам получить реальный опыт в social-tech проекте.
 
-Мы видим, что желание помочь часто разбивается о стену непонимания: кому помочь? что именно нужно? дойдет ли помощь? Мы создаем цифровой мост, который сделает благотворительность в Таджикистане прозрачной, точечной и эффективной.
+### 🤝 Партнерство и сотрудничество
+Мы открыты к диалогу с государственными органами, международными фондами (ВОЗ, USAID и др.) и некоммерческими организациями. 
 
-## 🛠 Текущий статус: Active Development 🚧
+**Контактное лицо:**
+* **Лид проекта:** Хамидов Сиёвуш
+* **Telegram:** [@siyovush_hamidov](https://t.me/siyovush_hamidov)
+* **LinkedIn:** [Siyovush Hamidov](https://www.linkedin.com/in/siyovush-hamidov/)
 
-Прямо сейчас мы находимся в активной фазе разработки MVP (Minimum Viable Product). Мы строим платформу, которая позволит социальным учреждениям публиковать свои реальные потребности, а донорам — закрывать их в пару кликов.
+### 📱 Наши соцсети
+Следите за обновлениями и результатами нашей работы:
+* **Telegram:** [t.me/hadaf_tjk](https://t.me/hadaf_tjk)
+* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
+* **LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
 
-## Наш технический стек:
+---
 
-Frontend: Next.js (React), Tailwind CSS
+# Hadaf | Transparent Targeted Charity 🚀
+*(English version)*
 
-Backend: Go (Golang)
+**Hadaf** is a volunteer-driven social tech initiative building a digital bridge for social good in Tajikistan.
 
-Infrastructure: Docker, CI/CD
+### 🛡️ Zero-Transaction Model
+We **do not accept money transfers**. Our platform is strictly non-financial.
+* We digitize verified physical needs (medicines, hygiene products, etc.).
+* Donors purchase specific items and deliver them directly to institutions.
+* We provide a transparent tracking system and proof of delivery.
 
-## 🤝 Хотите присоединиться?
+### 💻 Open Source & Contributions
+We believe in radical transparency. Our codebase is open for audit and collaborative improvement.
+* **Want to help?** Please read our [**CONTRIBUTING.md**](./CONTRIBUTING.md) guide before starting. It contains our workflow, coding standards, and PR process.
 
-Наши репозитории пока закрыты (Private) для обеспечения безопасности данных на этапе разработки, но мы всегда открыты для новых талантов.
+### 🤝 Partnerships
+We are looking for strategic partnerships with government health departments and international NGOs (WHO, USAID, etc.).
 
-Если вы разделяете наши ценности и хотите внести свой вклад в развитие социального Tech-проекта, напишите нам. Нам всегда нужны:
+**Point of Contact:**
+* **Project Lead:** Siyovush Hamidov
+* **Telegram:** [@siyovush_hamidov](https://t.me/siyovush_hamidov)
 
-Frontend & Backend разработчики
+### 📱 Connect with Us
+* **Telegram:** [t.me/hadaf_tjk](https://t.me/hadaf_tjk)
+* **Instagram:** [@hadaf.tajikistan](https://www.instagram.com/hadaf.tajikistan/)
+* **LinkedIn:** [Hadaf Foundation](https://www.linkedin.com/company/hadaftj)
 
-QA инженеры
-
-UI/UX дизайнеры
-
-## 📞 Контакты
-
-По всем вопросам сотрудничества, волонтерства или технической части обращайтесь к лидеру проекта:
-
-Lead: Хамидов Сиёвуш
-
-Telegram: [@siyovush_hamidov](https://t.me/siyovush_hamidov)
+<br>
 
 <div align="center">
-<i>Разрабатываем с ❤️ ради общего блага.</i>
+  <i>Разрабатываем с ❤️ ради общего блага | Engineered for the common good.</i>
 </div>
