@@ -61,7 +61,7 @@ This project exists thanks to all the people who contribute their time and exper
 
 ## Academic & NGO Context
 
-Hadaf is spearheaded by students and relies entirely on open-source volunteer efforts. The core infrastructure is architected under the leadership of a graduate student at the **University of Bayreuth, Germany**. We are actively seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO, USAID).
+Hadaf is spearheaded by indepentend software engineers and specialists and relies entirely on open-source volunteer efforts. We are actively seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO, USAID).
 
 ## Contact & Community
 
