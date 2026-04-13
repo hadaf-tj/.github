@@ -35,8 +35,8 @@ The Hadaf project is decoupled into four main repositories, allowing you to cont
 
 - [**hadaf-backend**](https://github.com/hadaf-tj/hadaf-backend) — Core API and business logic. Built with **Go**, PostgreSQL, Redis, and Docker.
 - [**hadaf-frontend**](https://github.com/hadaf-tj/hadaf-frontend) — Web platform for institutions. Built with **Next.js** and Tailwind CSS.
-<!-- - [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**. -->
 - [**hadaf-docs**](https://github.com/hadaf-tj/hadaf-docs) — Source of truth for architecture, technical specifications, and UX/UI design.
+<!-- - [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**. -->
 
 ## Contributing
 
