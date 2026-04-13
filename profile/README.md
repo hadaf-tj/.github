@@ -35,7 +35,7 @@ The Hadaf project is decoupled into four main repositories, allowing you to cont
 
 - [**hadaf-backend**](https://github.com/hadaf-tj/hadaf-backend) — Core API and business logic. Built with **Go**, PostgreSQL, Redis, and Docker.
 - [**hadaf-frontend**](https://github.com/hadaf-tj/hadaf-frontend) — Web platform for institutions. Built with **Next.js** and Tailwind CSS.
-- [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**.
+- [**hadaf-mobile**](https://github.com/hadaf-tj/hadaf-mobile) — Cross-platform mobile application. Built with **Flutter**. (Will be published soon)
 - [**hadaf-docs**](https://github.com/hadaf-tj/hadaf-docs) — Source of truth for architecture, technical specifications, and UX/UI design.
 
 ## Contributing
@@ -55,9 +55,12 @@ This project exists thanks to all the people who contribute their time and exper
 <a href="https://github.com/hadaf-tj/hadaf-backend/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-backend" alt="Backend Contributors" />
 </a>
-<a href="https://github.com/hadaf-tj/hadaf-mobile/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-mobile" alt="Mobile Contributors" />
+<a href="https://github.com/hadaf-tj/hadaf-docs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-docs" alt="Docs Contributors" />
 </a>
+<!-- <a href="https://github.com/hadaf-tj/hadaf-mobile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-mobile" alt="Mobile Contributors" />
+</a> -->
 
 ## Academic & NGO Context
 
