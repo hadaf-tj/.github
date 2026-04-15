@@ -118,3 +118,113 @@ Thank you to all the developers, designers, and QA engineers who volunteer their
 <a href="https://github.com/hadaf-tj/hadaf-backend/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=hadaf-tj/hadaf-backend" alt="Contributors" />
 </a>
+
+---
+
+## Style Guide — Go Backend
+
+### Formatting
+
+- Always run `gofmt` (or `gofumpt`) before committing — CI will reject unformatted code.
+- Run `go vet ./...` and `golangci-lint run` locally before opening a PR.
+
+### Imports
+
+Group imports in the following order, separated by blank lines:
+
+```go
+import (
+    // 1. Standard library
+    "context"
+    "fmt"
+
+    // 2. Third-party
+    "github.com/gin-gonic/gin"
+    "github.com/rs/zerolog"
+
+    // 3. Internal packages
+    "shb/internal/models"
+    "shb/pkg/myerrors"
+)
+```
+
+### Naming Conventions
+
+| Entity | Convention | Example |
+|---|---|---|
+| Packages | `lowercase`, single word | `services`, `handlers` |
+| Exported types | `PascalCase` | `BookingService` |
+| Unexported variables | `camelCase` | `userID` |
+| Interfaces | Noun or `-er` suffix | `IRepository`, `Limiter` |
+| Error vars | `Err` prefix | `ErrNotFound` |
+
+> **No transliteration.** All identifiers must be in English.
+
+### GoDoc Comments
+
+Every exported symbol **must** have a GoDoc comment beginning with its name:
+
+```go
+// CreateBooking registers a volunteer's intent to fulfil a specific need.
+func (s *Service) CreateBooking(ctx context.Context, ...) (int, error) { ... }
+```
+
+### Error Codes (i18n-Ready)
+
+User-facing errors passed to `myerrors.New*Err()` must use `UPPER_SNAKE_CASE` machine-readable codes. The frontend maps these to localised UI text.
+
+```go
+// ✅ Correct
+return myerrors.NewConflictErr("ERR_BOOKING_ALREADY_EXISTS")
+
+// ❌ Wrong — natural language in user-facing errors
+return myerrors.NewConflictErr("у вас уже есть заявка")
+```
+
+Internal `fmt.Errorf` strings (for logging) remain as natural English prose.
+
+### License Header
+
+Every new source file must begin with:
+
+```go
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Siyovush Hamidov and The Hadaf Contributors
+```
+
+Do **not** add headers to config files (`.yaml`, `.json`, `go.mod`, `go.sum`) or auto-generated files.
+
+### Dead Code
+
+- Remove all commented-out code blocks.
+- Remove obvious no-op comments (e.g., `// returns user` above `GetUser`).
+
+---
+
+## Style Guide — React / Next.js Frontend
+
+### Formatting
+
+- Use **Prettier** (config in `.prettierrc`) and **ESLint** before committing.
+- Run `npm run lint` locally before opening a PR.
+
+### Naming Conventions
+
+| Entity | Convention | Example |
+|---|---|---|
+| Components | `PascalCase` | `BookingCard.tsx` |
+| Hooks | `camelCase` with `use` prefix | `useBookings.ts` |
+| Utilities | `camelCase` | `formatDate.ts` |
+| Constants | `UPPER_SNAKE_CASE` | `MAX_RETRY_COUNT` |
+
+### i18n Error Codes
+
+Map API error codes to localised strings via the i18n layer. Never display raw codes to users.
+
+```ts
+// ✅ Correct
+const message = t(`errors.${error.message}`) ?? t('errors.GENERIC')
+
+// ❌ Wrong
+toast.error(error.message) // shows "ERR_BOOKING_ALREADY_EXISTS" to the user
+```
