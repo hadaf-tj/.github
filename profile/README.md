@@ -9,7 +9,8 @@
     <a href="https://github.com/hadaf-tj/hadaf-frontend"><img src="https://img.shields.io/badge/Frontend-Next.js-black.svg?logo=next.js" alt="Next.js Frontend"/></a>
     <a href="https://github.com/hadaf-tj/hadaf-mobile"><img src="https://img.shields.io/badge/Mobile-Flutter-02569B.svg?logo=flutter" alt="Flutter Mobile"/></a>
     <a href="https://github.com/hadaf-tj/hadaf-backend/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
-    <a href=""><img src="https://img.shields.io/badge/License-MIT-teal.svg" alt="MIT License"/></a>
+    <a href=""><img src="https://img.shields.io/badge/License-AGPLv3-blue.svg" alt="AGPLv3 License"/></a>
+
   <br>
   <br>
   <b>A zero-transaction digital ecosystem for transparent charity in Tajikistan.</b>
