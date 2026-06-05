@@ -13,22 +13,28 @@
 
   <br>
   <br>
-  <b>A zero-transaction digital ecosystem for transparent charity in Tajikistan.</b>
+  <b>A digital ecosystem for transparent social impact in Tajikistan.</b>
 </div>
 
 <br>
 
-**Hadaf** is an open-source, volunteer-driven ecosystem designed to eliminate opacity and inefficiency in charitable giving. Unlike traditional charity models that rely on opaque financial transfers, Hadaf operates on a **strictly zero-transaction basis**. We digitize the verified physical needs of social institutions (orphanages, nursing homes) and connect them directly with donors who provide the exact items required.
+**Hadaf** is an open-source, volunteer-driven ecosystem designed to eliminate opacity and inefficiency in charitable giving. We digitize the verified physical needs of social institutions (orphanages, nursing homes) and connect them directly with donors. 
+
+To maintain maximum security and minimize compliance risks, Hadaf does not process financial transactions internally. Instead, we act as a transparent routing layer: donors can either fulfill physical needs directly (item-based help) or use verified, external banking gateways to support specific institutions.
 
 Our goal is to build a highly secure, scalable, and trustless system that can serve as a national standard for transparent social impact, heavily influenced by enterprise-grade architecture and rigorous CI/CD practices.
 
 ## Features
 
-- **Zero Financial Transactions:** No money passes through the platform. 100% item-based targeted help.
+- **Decentralized Financial Flows:** The platform handles zero internal escrow. Financial donations are routed directly to the verified third-party bank accounts of the institutions.
+- **Direct Physical Impact:** A core marketplace for 100% item-based targeted help (equipment, medical supplies).
 - **Role-Based Access Control (RBAC):** Strict separation of concerns between Institutions, Donors, Volunteers, and Admins.
-- **Cross-Platform Ecosystem:** Native mobile app, responsive web dashboard, and robust API.
 - **Digital Audit Trail:** Every delivered item is tracked, verified, and transparently reported.
 - **Enterprise Security:** Isolated infrastructure, strict NAT routing, and encrypted data flows to protect institutional data.
+
+## Infrastructure Support
+
+Operating a high-availability platform requires resources (AWS hosting, SMS gateways for OTP, CDN). If you wish to support the technical viability of the Hadaf ecosystem, consider donating to our infrastructure fund: [Link to Infrastructure Donations].
 
 ## The Ecosystem
 
@@ -65,7 +71,7 @@ This project exists thanks to all the people who contribute their time and exper
 
 ## Academic & NGO Context
 
-Hadaf is spearheaded by indepentend software engineers and specialists and relies entirely on open-source volunteer efforts. We are actively seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO, USAID).
+Hadaf is spearheaded by independent software engineers and relies entirely on open-source volunteer efforts. We are actively establishing legal frameworks and seeking strategic partnerships with government health departments (Ministry of Health) and international NGOs (WHO).
 
 ## Contact & Community
 
